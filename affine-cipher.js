@@ -1,3 +1,6 @@
+// Isi message yang ingin di enkripsi kan disini
+var message = "bintang";
+
 // Fungsi untuk mengenkripsi pesan
 function encrypt(message, a, b) {
     var encryptedMessage = "";
@@ -55,8 +58,6 @@ function cryptanalysis(encryptedMessage) {
     return decryptedMessages;
 }
 
-// Contoh penggunaan
-var message = "bintang";
 var a = 5;
 var b = 8;
 
